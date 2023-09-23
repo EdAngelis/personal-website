@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.github-chart {
+    display: flex;
+    margin: 50px ;
+    justify-content: center;
+}
+
+.github-chart img {
+    height: 200px;
+    
+}

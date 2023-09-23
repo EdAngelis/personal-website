@@ -1,0 +1,150 @@
+ body {
+    background-color: black;
+ }
+.container-skills{
+    display: grid;
+    gap: 10px;
+    max-width: 15em;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "axleX axleX axleX axleX axleX axleX axleX" 
+    "flutter-bar flutter flutter flutter flutter flutter flutter"
+    "vue-bar vue vue vue vue vue vue"
+    "angular-bar angular angular angular angular angular angular"
+    "react-bar react-bar react react react react react"
+    "typescript-bar typescript-bar typescript-bar typescript typescript typescript typescript"
+    "node-bar node-bar node-bar node-bar node-bar node node"
+    "javascript-bar javascript-bar javascript-bar javascript-bar javascript-bar javascript javascript"
+    "mongoDb-bar mongoDb-bar mongoDb-bar mongoDb-bar mongoDb-bar mongoDb mongoDb"
+    "aws-bar aws-bar aws-bar aws-bar aws aws aws"
+    "mySql-bar mySql-bar mySql-bar mySql mySql mySql mySql"
+    "git-bar git-bar git-bar git git git git"
+    "github-bar github-bar github-bar github github github github"
+    "docker-bar docker-bar docker docker docker docker docker"
+    ;
+    /* transform: rotate(-90deg) translateX(-100%);
+    transform-origin: top left; */
+}
+
+.axle-x {
+    align-self: center;
+    text-align: end;
+    color: white;
+    font-size: .5em;
+}
+
+.technology p {
+    font-size: 1em;
+    text-align: start;
+    margin: 0;
+    padding: 0 0 10px 10px;
+    color: white;
+}
+
+.flutter-bar {
+    background-color: #8E00D1;
+    grid-area: flutter-bar;
+}
+
+.flutter{
+    grid-area: flutter;
+}
+
+.vue {
+    grid-area: vue;
+}
+
+.angular-bar {
+    background-color: #8E00D1;
+    grid-area: angular-bar;
+}
+
+.react {
+    grid-area: react;
+}
+
+.typescript {
+    grid-area: typescript;
+}
+
+.node {
+    grid-area: node;
+}
+
+.javascript {
+    grid-area: javascript;
+}
+
+.mongoDb {
+    grid-area: mongoDb;
+}
+
+.github {
+    grid-area: github;
+}
+
+.aws {
+    grid-area: aws;
+}
+
+.git {
+    grid-area: git;
+}
+
+.mySql {
+    grid-area: mySql;
+}
+
+.docker {
+    grid-area: docker;
+}
+
+
+
+.javascript-bar{
+    background: #8E00D1;
+    grid-area: javascript-bar;
+}
+.typescript-bar{
+    background: #8E00D1;
+    grid-area: typescript-bar;
+}
+.node-bar{
+    background: #8E00D1;
+    grid-area: node-bar;
+}
+.react-bar{
+    background: #8E00D1;
+    grid-area: react-bar;
+}
+.vue-bar{
+    background: #8E00D1;
+    grid-area: vue-bar;
+}
+.angular{
+    grid-area: angular;
+}
+.mongoDb-bar{
+    background: #8E00D1;
+    grid-area: mongoDb-bar;
+}
+.mySql-bar{
+    background: #8E00D1;
+    grid-area: mySql-bar;
+}
+.aws-bar{
+    background: #8E00D1;
+    grid-area: aws-bar;
+}
+.docker-bar{
+    grid-area: docker-bar;
+    background: #8E00D1;
+}
+.git-bar{
+    background: #8E00D1;
+    grid-area: git-bar;
+}
+.github-bar{
+    background: #8E00D1;
+    grid-area: github-bar;
+}

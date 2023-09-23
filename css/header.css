@@ -1,4 +1,4 @@
-header ul {
+header nav ul {
     display: flex;
     gap: 20px;
     justify-content: end;
@@ -6,10 +6,10 @@ header ul {
     padding: 0 20px;
 }
 
-header ul li {
+header nav ul li {
     list-style: none;
 }
-header ul li a {
+header nav ul li a {
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     color: #0D7CFF;

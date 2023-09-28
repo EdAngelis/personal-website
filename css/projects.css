@@ -16,3 +16,11 @@
     line-height: 2em;
     color: #0D7CFF;
 }
+
+.projects a:hover {
+    color: #8E00D1;
+}
+
+.projects a + a {
+    margin-top: 30px;
+}

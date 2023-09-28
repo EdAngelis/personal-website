@@ -45,3 +45,22 @@
     border-bottom: 10px solid #8E00D1;
     width: 100%;
 }
+
+@media screen and ( max-width: 450px) {
+    .job1 {
+        align-items: flex-start;
+    }
+
+    .job2 {
+        align-items: flex-start;
+    }
+
+    .job1-technologies, .job1-role, .job1-company {
+        margin: 0 0 0 10px;
+    }
+
+    
+    .job2-technologies, .job2-role, .job2-company {
+        margin: 0 0 0 10px;
+    }
+}
